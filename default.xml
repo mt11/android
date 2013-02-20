@@ -328,7 +328,7 @@
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="cm-10.1" />
   <project path="hardware/semc/dash" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="jellybean" />
-  <project path="hardware/ti/fmradio" name="CyanogenMod/android_hardware_ti_fmradio" remote="github" revision="cm-101" />
+  <project path="hardware/ti/fmradio" name="CyanogenMod/android_hardware_ti_fmradio" remote="github" revision="jellybean" />
 
 
 <!-- cm42semc -->
