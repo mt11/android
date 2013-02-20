@@ -7,20 +7,6 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <remote  name="cm"
-           fetch="https://github.com/"
-           review="review.cyanogenmod.com" />
-
-  <remote name="kxp"
-           fetch="https://github.com/"
-           revision="jb"
-           review="smartdev.com.pl:8080" />
-
-  <remote name="fxp"
-           fetch="https://github.com/"
-           revision="jellybean"
-           review="review.cyanogenmod.com" />
-
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
            sync-j="4" />
@@ -240,7 +226,7 @@
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="refs/tags/android-4.2.1_r1___" />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
@@ -255,7 +241,6 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" remote="github" revision="cm-10.1" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
@@ -279,7 +264,6 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" />
-  <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="cm" revision="cm-10.1" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" />
@@ -310,13 +294,15 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
  
-  <project path="manifest" name="mt11/android" remote="github" revision="master" />
+
 
   <project path="build" name="mt11/platform_build" remote="github" revision="jb4.2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
- <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="cm" revision="cm-10.1" />
+  <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="cm" revision="cm-10.1" />
+  <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" remote="github" revision="cm-10.1" />
+  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="cm" revision="cm-10.1" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" remote="cm" revision="cm-10.1" />
   <project path="hardware/msm7k" name="PolishBloodProject/android_hardware_msm7k" remote="github" revision="jb-4.2" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
@@ -341,7 +327,7 @@
   <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="cm-10.1" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="cm-10.1" />
-  <project path="hardware/semc/dash" name="CyanogenMod/android_hardware_sony_DASH" remote="cm" revision="cm-10.1"/>
+  <project path="hardware/semc/dash" name="CyanogenMod/android_hardware_sony_DASH" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/fmradio" name="CyanogenMod/android_hardware_ti_fmradio" remote="cm" revision="cm-101" />
 
 
@@ -378,6 +364,5 @@
   <project path="device/semc/msm7x30-common" name="PolishBloodProject/android_device_semc_msm7x30-common" remote="cm" revision="jb-4.2" />
   <project path="system/bluetooth" name="PolishBloodProject/platform_system_bluetooth" remote="github" revision="jb-4.2" />
   <project path="packages/apps/Gallery2" name="PolishBloodProject/android_packages_apps_Gallery2" remote="github" revision="cm-10.1" />
-
 
 </manifest>
