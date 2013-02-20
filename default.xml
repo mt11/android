@@ -310,7 +310,7 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
  
-
+  <project path="manifest" name="mt11/android" remote="github" revision="master" />
 
   <project path="build" name="mt11/platform_build" remote="github" revision="jb4.2" >
     <copyfile src="core/root.mk" dest="Makefile" />
