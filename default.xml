@@ -352,7 +352,7 @@
   <project path="packages/apps/Camera" name="Andromadus/android_packages_apps_Camera" remote="github" revision="cm10.1" />
   <project path="packages/apps/DeskClock" name="Andromadus/android_packages_apps_DeskClock" remote="github" revision="cm10.1" />
   <project path="packages/apps/Settings" name="Andromadus/android_packages_apps_Settings" remote="github" revision="cm10.1" />
-  <project path="external/chromium" name="Andromadus/android_external_chromium" remote="github" revision="cm10.1" />
+  <project path="external/chromium" name="Andromadus/android_external_chromium" remote="github" revision="jb4.2" />
 
 <!-- Polishblood -->
 
