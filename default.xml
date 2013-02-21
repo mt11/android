@@ -359,9 +359,10 @@
   <project path="kernel/semc/msm7x30" name="PolishBloodProject/semc-kernel-msm7x30" remote="github" revision="mr1-staging" />
   <project path="vendor/semc" name="PolishBloodProject/proprietary_vendor_semc" remote="github" revision="jb-4.2" />
   <project path="device/semc/coconut" name="PolishBloodProject/android_device_semc_coconut" remote="github" revision="jb-4.2" />
-  <project path="device/semc/haida" name="htomasz/android_device_semc_haida" remote="github" revision="jb-4.2" />
-  <project path="device/semc/mogami-common" name="htomasz/android_device_semc_mogami-common" remote="github" revision="jb-4.2" />
-  <project path="device/semc/msm7x30-common" name="htomasz/android_device_semc_msm7x30-common" remote="github" revision="jb-4.2" />
+  <project path="device/semc/msm7x30-common" name="cm42semc/android_device_semc_msm7x30-common"  remote="github" revision="cm-10.1" />
+  <project path="device/semc/haida" name="cm42semc/android_device_semc_haida" remote="github" revision="cm-10.1" />
+  <project path="device/semc/mogami-common" name="cm42semc/android_device_semc_mogami-common" remote="github" revision="cm-10.1" />
+  
   <project path="system/bluetooth" name="PolishBloodProject/platform_system_bluetooth" remote="github" revision="jb-4.2" />
   <project path="packages/apps/Gallery2" name="PolishBloodProject/android_packages_apps_Gallery2" remote="github" revision="cm-10.1" />
 
