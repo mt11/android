@@ -329,7 +329,8 @@
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="cm-10.1" />
   <project path="hardware/semc/dash" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="jellybean" />
   <project path="hardware/ti/fmradio" name="CyanogenMod/android_hardware_ti_fmradio" remote="github" revision="jellybean" />
-
+  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-10.1" />
+  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.1" />
 
 <!-- cm42semc -->
 
@@ -339,7 +340,6 @@
 
 <!-- Andromadus -->
 
-  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="cm10.1" />
   <project path="hardware/qcom/librpc" name="Andromadus/android_hardware_qcom_librpc" remote="github" revision="jellybean" /> 
   <project path="hardware/ril" name="Andromadus/android_hardware_ril" remote="github" revision="jellybean" />
